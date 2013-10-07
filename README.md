@@ -1,4 +1,4 @@
-![screenshot](https://raw.github.com/jchee404/MultipagePlayResponsiveKamanu/master/doc/kamanu-home-page.jpg)
+![screenshot](https://raw.github.com/jchee404/MultipagePlayResponsiveKamanu/master/doc/surferpedia-home-page.jpg)
 
 Overview
 --------
