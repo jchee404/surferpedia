@@ -1,0 +1,31 @@
+body {
+  padding-top: 70px;  /* Move body of page below navbar. */
+  color: red;
+}
+
+.carousel-1 {
+  
+  background: url('http://upload.wikimedia.org/wikipedia/en/1/10/Internet_Explorer_7_Logo.png');
+  background-size: cover;
+  background-position:center;
+  height: 500px;
+  
+}
+
+.carousel-2 {
+  
+  background: url('http://upload.wikimedia.org/wikipedia/commons/f/ff/Mozilla_Firefox_logo_2013.png');
+  background-size: cover;
+  background-position:center;
+  height: 500px;
+  
+}
+
+.carousel-3 {
+  
+  background: url('http://upload.wikimedia.org/wikipedia/commons/e/e2/Google_Chrome_icon_%282011%29.svg');
+  background-size: cover;
+  background-position:center;
+  height: 500px;
+  
+}
