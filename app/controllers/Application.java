@@ -3,7 +3,9 @@ package controllers;
 import play.mvc.Controller;
 import play.mvc.Result;
 import views.html.Index;
-import views.html.Page1;
+import views.html.kelly;
+import views.html.bethany;
+import views.html.jake;
 
 /**
  * Implements the controllers for this application.
@@ -19,11 +21,26 @@ public class Application extends Controller {
   }
   
   /**
-   * Returns page1, a simple example of a second page to illustrate navigation.
-   * @return The Page1.
+   * @return Kelly Slater's page.
    */
-  public static Result page1() {
-    return ok(Page1.render("Welcome to Page1."));
+  public static Result kelly() {
+    return ok(kelly.render("Welcome to Page1."));
+    
+  }
+  
+  /**
+   * @return Bethany Hamilton's page.
+   */
+  public static Result bethany() {
+    return ok(bethany.render("Welcome to Page1."));
+    
+  }
+  
+  /**
+   * @return Jake Marshall's page.
+   */
+  public static Result jake() {
+    return ok(jake.render("Welcome to Page1."));
     
   }
 }

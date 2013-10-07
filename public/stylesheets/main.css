@@ -1,11 +1,19 @@
 body {
-  padding-top: 70px;  /* Move body of page below navbar. */
-  color: red;
+  padding-top: 250px;  /* Move body of page below navbar. */
+}
+
+.top-image {
+  
+  background: url('../images/top.jpg');
+  background-size: cover;
+  background-position:center;
+  height: 200px;
+  
 }
 
 .carousel-1 {
   
-  background: url('http://upload.wikimedia.org/wikipedia/en/1/10/Internet_Explorer_7_Logo.png');
+  background: url('../images/kelly.jpg');
   background-size: cover;
   background-position:center;
   height: 500px;
@@ -14,7 +22,7 @@ body {
 
 .carousel-2 {
   
-  background: url('http://upload.wikimedia.org/wikipedia/commons/f/ff/Mozilla_Firefox_logo_2013.png');
+  background: url('../images/bethany.jpg');
   background-size: cover;
   background-position:center;
   height: 500px;
@@ -23,9 +31,21 @@ body {
 
 .carousel-3 {
   
-  background: url('http://upload.wikimedia.org/wikipedia/commons/e/e2/Google_Chrome_icon_%282011%29.svg');
+  background: url('../images/jake.jpg');
   background-size: cover;
   background-position:center;
   height: 500px;
+  
+}
+
+.row {
+  
+  padding: 20px;
+    
+}
+
+.well img {
+  
+  width: 100%;
   
 }
