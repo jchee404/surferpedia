@@ -6,6 +6,7 @@ import views.html.Index;
 import views.html.kelly;
 import views.html.bethany;
 import views.html.jake;
+import views.html.sunny;
 
 /**
  * Implements the controllers for this application.
@@ -13,34 +14,43 @@ import views.html.jake;
 public class Application extends Controller {
 
   /**
-   * Returns the home page. 
-   * @return The resulting home page. 
+   * Returns the home page.
+   * 
+   * @return The resulting home page.
    */
   public static Result index() {
     return ok(Index.render("Welcome to the home page."));
   }
-  
+
   /**
    * @return Kelly Slater's page.
    */
   public static Result kelly() {
     return ok(kelly.render("Welcome to Page1."));
-    
+
   }
-  
+
   /**
    * @return Bethany Hamilton's page.
    */
   public static Result bethany() {
     return ok(bethany.render("Welcome to Page1."));
-    
+
   }
-  
+
   /**
    * @return Jake Marshall's page.
    */
   public static Result jake() {
     return ok(jake.render("Welcome to Page1."));
-    
+
+  }
+
+  /**
+   * @return Sunny Garcia's page.
+   */
+  public static Result sunny() {
+    return ok(sunny.render("Welcome to Page1."));
+
   }
 }
